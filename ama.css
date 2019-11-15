@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+background-color:#9FD9D6;
+}
+
+
+h1 {
+	font-family: "Arial Rounded MT Bold";
+}
+header{
+	height: 150px;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: black;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: whitesmoke;
+	color: black;
+}
+
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+}
